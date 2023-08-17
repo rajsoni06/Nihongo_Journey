@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nihongo Journey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+    <style>
+      html {
+      scroll-behavior: smooth;
+    }
+    h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    body {font-family: "Source Sans Pro"}
+    </style>
+
+
+
+
+
+<style>
+/* Add this custom CSS block to change the hover color of the Search button */
+.btn-outline-success:hover {
+    color: #fff; /* Text color (white) */
+    background-color: #28a745; /* Background color (green) */
+    border-color: #28a745; /* Border color (green) */
+    border-radius: 10px;
+}
+</style>
+
+
+
+
+
+
+
+<style> /* Navigation bar with drop down menu */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #fac2bb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+
+
+
+
+
+
+
+<style> /*JLPT-LEVELS Animation*/
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
+
+
+
+
+
+
+
+
+
+<style> /*Explore Animation*/
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+</style>
+
+
+
+
+    
+<style> {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navigation bar styling */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+
+
+
+
+
+<style>
+    .w3-button.w3-gradient-skyblue {
+        background: linear-gradient(to bottom, #87CEEB, #00BFFF);
+        color: white; /* Set text color to white for better contrast */
+    }
+</style>
+
+
+
+
+
+
+        <!-- FONTS -->
+        <style>
+        /* Using em */
+        .em-font {
+            font-size: 1.5em; /* 1.5 times the parent's font size */
+        }
+
+        /* Using rem */
+        .rem-font {
+            font-size: 1.5rem; /* 1.5 times the root font size */
+        }
+    </style>
+
+
+
+
+
+<!--NIHONGO JOURNEY ICON-->
+<style>
+        /* Add your CSS styles here */
+        .logo {
+            padding: 3px 4px;
+            font-family: Arial, sans-serif; /* Choose an appropriate font */
+            font-size: 14px;
+            font-weight: bold;
+            background: #FFC0CB;
+            cursor: pointer;
+            color: red; /* Choose an attractive color */
+            border-radius: 0px;
+            border: 3px solid Pink;
+
+
+        }
+    </style>
+
+
+
+
+  <!-- Images-->
+
+    <style>
+        /* CSS for responsive image */
+        .responsive-image-1 {
+            max-width: 100%;
+            height: auto;
+        }
+    </style> 
+
+
+
+
+
+<style>
+  .ml2 {
+  position: relative; /* Add this to make the ::before pseudo-element relative to the .ml2 element */
+  font-weight: bold;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.ml2::before {
+  content: ""; /* Add content to the ::before pseudo-element */
+  position: absolute; /* Position the background label */
+  top: 130%; /* Adjust the vertical position */
+  left: 50%; /* Adjust the horizontal position */
+  transform: translate(-50%, -50%); /* Center the label */
+  background-color: rgba(0, 0, 0, 0.5); /* Background color for the label */
+  padding: 30px 50px; /* Add padding to the label */
+  border-radius: 3px; /* Add rounded corners */
+  z-index: -1; /* Place the label behind the text */
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+
+
+
+.ml2::before {
+  content: ""; /* Add content to the ::before pseudo-element */
+  position: absolute; /* Position the background label */
+  top: 50%; /* Adjust the vertical position */
+  left: 43%; /* Adjust the horizontal position */
+  transform: translate(-50%, -50%); /* Center the label */
+  background-color: rgba(0, 0, 0, 0.5); /* Background color for the label */
+  padding: 22px 135px; /* Add padding to the label */
+  border-radius: 4px; /* Add rounded corners */
+  z-index: -1; /* Place the label behind the text */
+}
+
+
+
+.ml3 {
+  font-weight: bold; /* Make the font bold */
+  font-size: 1.3em;
+  color: white; /* Make the color white */
+  text-transform: uppercase; /* Convert letters to uppercase */
+}
+
+
+
+
+
+.ml3 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<!--START NOW-->
+<style>
+        /* CSS for the button and text */
+        .button-container {
+            padding: 10px; /* Add padding to the container to control spacing */
+        }
+
+
+        .start-button {
+            padding: 7px 10px; /* Adjust padding for the button (top/bottom, left/right) */
+            font-size: 14px; /* Adjust font size for the button */
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(to right, #FFA07A, #FF6347); /* Red color */
+            color: white;
+            cursor: pointer;
+            border: 3px light red;
+            transition: background-color 0.3s;
+        }
+
+        .start-button:hover {
+            background-color: #d32f2f; /* Darker red color on hover */
+        }
+
+        /* Media query for small screens */
+        @media screen and (max-width: 600px) {
+            .start-button {
+                padding: 5px 10px; /* Reduce padding for small screens */
+            }
+        }
+    </style>
+
+
+
+
+
+
+<style>
+    h6 {
+        font-size: 5px; /* Adjust the value to your desired font size */
+    }
+</style>
+
+
+
+
+<style>
+    .text-center {
+        text-align: center;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+<style>
+    
+
+    /* List of images */
+    .list {
+        /* Your list styles */
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*Image-Slider Caption or Text*/
+    .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 0.1px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+
+/* Image slider */
+.slider{
+    width: 600px;
+    max-width: 100vw;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{                                                
+    width: 600px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;                                                 
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;                                                    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 300px){
+    .slider{
+        height: 400px;
+    }
+}
+</style>
+
+
+
+
+
+
+
+
+<style>
+.ml11 {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+        /* CSS for responsive image */
+        .responsive-image-2 {
+            max-width: 100%;
+            height: auto;
+        }
+    </style> 
+
+
+
+<style>
+        /* CSS for responsive image */
+        .responsive-image-3 {
+            max-width: 100%;
+            height: auto;
+        }
+    </style> 
+
+
+
+<!--Areas Names-->
+<style>
+        /* CSS for bullet points */
+        .region-list {
+            list-style-type: disc; /* Use disc as the bullet point style */
+            margin-left: 20px; /* Add left margin for indentation */
+        }
+
+        /* CSS for responsive image */
+        .responsive-image-7 {
+            max-width: 100%; /* Make the image responsive within its container */
+            height: auto; /* Automatically adjust the height based on the width */
+        }
+    </style>
+
+
+
+
+
+
+    <style>
+        /* CSS for responsive image */
+        .responsive-image-7 {
+            max-width: 100%;
+            height: auto;
+        }
+    </style> 
+
+
+
+
+
+
+
+ <style>
+  .image-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-zoom img {
+  transition: transform 0.2s;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.1);
+}
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+  <!--Top-Up-->
+  <style>
+        /* CSS for the clickable top-up option */
+        .top-up-button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #ff9999;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .top-up-button:hover {
+            background-color: #ff6699;
+        }
+    </style>
+
+  <!--Social Media Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* CSS for social media icons */
+        .spaced-icons
+        .responsive-icons
+        .social-icon {
+            font-size: 25px;
+            margin: 12px;
+        }
+    </style>
+
+
+
+<style>
+        /* CSS for link without underline */
+        .no-underline {
+            text-decoration: none; /* Remove underline */
+
+         /* CSS for icons */
+        .icon {
+            font-size: 23px;
+            margin: 10px;
+        }
+</style>
+    
+
+
+
+    <style>
+        /* CSS for bigger icons */
+        .bigger-icon {
+            font-size: 20px; /* Adjust the font size as needed */
+            margin: 8px; /* Add some spacing between icons */
+        }
+    </style>
+
+
+
+<style>
+        /* Custom classes for social icons with brand colors */
+        .facebook-icon {
+            color: #1877F2; /* Facebook's brand color */
+        }
+
+        
+  <style>
+        /* CSS for icons */
+        .social-icon {
+            padding: 10px 10px;
+            font-size: 15px;
+            margin: 10px;
+        }
+    </style>
+
+
+
+
+
+<style>  /*Connect with us*/
+    .w3-button {
+        padding: 10px 20px; /* Adjust the padding as needed */
+        text-align: center; /* Center the text horizontally */
+    }
+</style>
+
+
+
+
+
+
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 10px;
+    }
+    </style>
+
+
+
+  </head>
+<body>
+
+
+
+    
+
+
+
+    
+    <!-- Navbar (sit on top) -->
+  <div class="w3-bar w3-white w3-text-black">
+    <h5 class="w3-left w3-tag w3-pale-red w3-round em-font logo"> 𝐍𝐈𝐇𝐎𝐍𝐆𝐎 &nbsp; 𝐉𝐎𝐔𝐑𝐍𝐄𝐘 🗾</h5>
+    <!-- Right-sided navbar links --> 
+    <div class="w3-right w3-hide-small">
+      <a href="#Home" class="w3-bar-item w3-button"><i class=  "fa fa-home"></i> HOME</a> &nbsp; &nbsp; 
+      <a href="#Learn" class="w3-bar-item w3-button"><i class="fa fa-user"></i> LEARN</a> &nbsp; &nbsp; &nbsp; 
+      <a href="#Travel" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TRAVEL</a> &nbsp; &nbsp; &nbsp; 
+      <a href="#Places" class="w3-bar-item w3-button"><i class="fas fa-marker"></i> PLACES</a> &nbsp; &nbsp; &nbsp; 
+      <a href="#Areas" class="w3-bar-item w3-button"><i class="fa fa-map"></i> AREAS </a> &nbsp; &nbsp; &nbsp; 
+      <a href="#Contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT </a> &nbsp; 
+
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a> &nbsp;
+  <a href="#Home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#Learn" onclick="w3_close()" class="w3-bar-item w3-button">LEARN</a> 
+  <a href="#Travel" onclick="w3_close()" class="w3-bar-item w3-button">TRAVEL</a>  
+  <a href="#Places" onclick="w3_close()" class="w3-bar-item w3-button">PLACES</a> 
+  <a href="#Areas" onclick="w3_close()" class="w3-bar-item w3-button">AREAS</a> 
+  <a href="#Contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a> &nbsp; 
+</nav>
+
+
+
+
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn" > <b>Courses</b> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a class="dropdown-item" href="https://drive.google.com/file/d/1Xhu7BJV7Iur5MFTCR7icvQnQRzaY2NQ_/view?usp=sharing" target="_blank"> 📼(Super Advanced) N1 Course </a>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1Xq3abGiV4yR0ZMk6pII1UN_46xxQbPAJ/view?usp=drive_link" target="_blank"> 📼(Advance) N2 Course </a>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1ZpJrnG593XgiUcqtu7VMwWgZAtybzlOQ/view?usp=sharing" target="_blank"> 📼(Intermediate) N3 Course </a>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1UJYOGGcGOTv8_N7Slk0D8EEfW94Vf5dw/view?usp=drivesdk" target="_blank"> 📼(Basic) N4 Course </a>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1VKWTSLRO441fbNuicU8OkVYoU_htGBYZ/view?usp=drivesdk" target="_blank"> 📼(Most Basic) N5 Course </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1VNqheM7AI1TYL-Mow3mCHcCXPL_mk-nw/view?usp=sharing" target="_blank"> 📼Beginner Course </a>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1V5VB6F2aSNmrpXw2_9P-9xnoFyLswH-e/view?usp=drivesdk" target="_blank"> 📄Absolute Beginner Course </a>
+          <a class="dropdown-item" href="https://drive.google.com/file/d/1_FgeXtrY8S-JRY7rhC3uIxyKxQGHYeVK/view?usp=sharing" target="_blank"> 📄Japanese Alphabets </a>
+          </div></div>
+      
+
+
+
+      <div class="dropdown">
+      <button class="dropbtn"> <b> Destination </b></a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.japan-guide.com/e/e2164.html"  class="dropdown-item"target="_blank">📍 Tokyo </a> 
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2157.html" target="_blank">📍 Osaka </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2156.html" target="_blank"> 📍 Yokohama </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2158.html" target="_blank"> 📍 Kyoto </a>
+          <a class="dropdown-item" href="https://en.japantravel.com/saitama"       target="_blank"> 📍 Saitama </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2160.html" target="_blank"> 📍 Hiroshima </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e5150.html" target="_blank"> 📍 Sendai </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2163.html" target="_blank"> 📍 Sapporo </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2162.html" target="_blank"> 📍 Nagasaki </a>
+          <a class="dropdown-item" href="https://www.japan-guide.com/e/e2165.html" target="_blank"> 📍 Nara </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://matcha-jp.com/en/list/region">All Areas > </a>
+    </div></div>
+        
+
+
+        <div class="dropdown">
+      <button class="dropbtn" > <b> Interest  </b> </a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.japan-guide.com/e/e2025.html"  class="dropdown-item"  target="_blank">🛏  Accomodation</a>
+          <a class="dropdown-item" href="https://www.worldtravelguide.net/guides/asia/japan/food-and-drink/" target="_blank">🍴 Food and Drink </a>
+          <a class="dropdown-item" href="https://traveltriangle.com/blog/things-to-do-in-japan/" target="_blank"> 🇯🇵  Things to do</a>
+          <a class="dropdown-item" href="https://www.insidejapantours.com/japanese-culture/" target="_blank">🗾  Culture</a>
+    </div>
+  </div> 
+
+  
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+    <img class="w3-image" src="https://p4.wallpaperbetter.com/wallpaper/989/459/755/mountain-fujiyoshida-arakura-asia-wallpaper-preview.jpg" alt="HomePage Pic" width="1600" height="1400"  class="responsive-image-1">
+    
+   
+
+   
+
+<!--START NOW-->
+<div>
+<div class="w3-display-left w3-padding-large">
+    <br>
+    <h3 class="ml2"  class="ml2::before" class="responsive-image-1"><b>EXPLORE JAPAN</b></h3>
+
+    <h3 class="ml3"  class="responsive-image-1">AND LEARN JAPANESE</h4>
+
+
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <div class="button-container">
+        <h5>
+            <button class="start-button">
+                <a href="#Learn" class="no-underline responsive-image-1"><b> START NOW </b> </a>
+            </button>
+        </h5>
+    </div>
+</div>
+
+  </header>
+
+
+
+
+
+
+
+
+<div class="text-center">
+<h5 class="ml11" class="text-center">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters" class="w3-text-black em-font responsive-image-1" class="text-center">A &nbsp; site &nbsp; for &nbsp; everything &nbsp; about &nbsp; Japan</span>
+  </span>
+</h5>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+
+
+
+
+<!--Image slider-->
+<div class="slider">
+    <div class="list">
+        <div class="item">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/48/847/desktop-wallpaper-1680x1050-sensoji-temple-tokyo-tokyo.jpg" class="responsive-image-1" alt="Sensoji Temple">
+            <div class="caption"></div>
+        </div>
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/324/923/643/buddhist-temple-landmark-japanese-architecture-temple-wallpaper-preview.jpg" class="responsive-image-1" alt="Sensoji Pagoda">
+            <div class="caption"></div>
+        </div>
+        <div class="item">
+            <img src="https://e0.pxfuel.com/wallpapers/644/311/desktop-wallpaper-most-beautiful-places-in-japan-japanese-scenic.jpg" class="responsive-image-1" alt="Matsumoto Castle">
+            <div class="caption"></div>
+        </div>
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/888/85/317/japan-landscape-fall-cherry-trees-wallpaper-preview.jpg" class="responsive-image-1" alt="Kyoto Garden">
+            <div class="caption"></div>
+        </div>
+        <div class="item">
+            <img src="https://c1.wallpaperflare.com/preview/131/67/695/fushimi-inari-taisha-shrine-kyoto-japan-culture.jpg" class="responsive-image-1" alt="Fushimi Inari Taisha">
+            <div class="caption">     </div>
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/originals/f0/ce/c0/f0cec0db80962ffd21c2bc92bcae842b.png" class="responsive-image-1" alt="Seigantoji Pagoda">
+            <div class="caption"></div>
+        </div>
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/45/471/815/bamboo-forest-wallpaper-preview.jpg" class="responsive-image-1" alt="Bamboo Forest">
+            <div class="caption"></div>
+        </div>
+        <div class="item">
+            <img src="https://c0.wallpaperflare.com/preview/536/18/486/person-neon-asia-city.jpg" class="responsive-image-1" alt="Shibuya">
+            <div class="caption"></div>
+        </div>
+        
+    </div>
+    <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+
+<div class="w3-row-padding" id="Learn">
+    <div class="w3-center w3-padding-32">
+<h5 class="ml14"class="responsive-image-1">
+  <span class="text-wrapper">
+    <span class="letters" ><b><u> JLPT - LEVELS </u></b></span>
+    <span class="line"></span>
+  </span>
+</h5>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+
+
+
+
+
+
+
+  <!-- Grid / Trainers section -->
+  <div class="w3-row-padding" id="Learn">
+    <div class="w3-center w3-padding-32">
+      <h3 class="w3-wide w3-center"><b> <u> N1 - N5 Levels </b> </u></h3>
+         <p class="w3-white w3-text-black w3-left-align">
+     <div id="alpha">
+        <div id="alpha-inner" class="clearfix">
+			<h1><img src="https://www.jlpt.jp/e/about/img/levelsummary_h1.gif" width="665" height="130" alt="N1-N5: Summary of Linguistic Competence Required for Each Level" class="responsive-image-2"></h1>
+            
+<p id="lead" class="p-b00">The JLPT has five levels: N1, N2, N3, N4 and N5. The easiest level is N5 and the most difficult level is N1.</p>
+
+			<div id="caption"><img src="https://www.jlpt.jp/e/about/img/levelsummary_lvlbar.gif" width="665" height="52" alt="N1 difficult ←→ easy N5" class="responsive-image-2"></div>
+			
+      
+      <p id="lead" class="center-align"> N4 and N5 measure the level of understanding of basic Japanese mainly learned in class. N1and N2 measure the level of understanding of Japanese used in a broad range of scenes in actual everyday life. N3 is a bridging level between N1/N2 and N4/N5.</p>
+			<p id="lead"class="center-align">Linguistic competence required for the JLPT is expressed in terms of language activities, such as Reading and Listening, as shown in the table below. While not noted in the table, Language Knowledge, such as Vocabulary and Grammar, is also required for successful execution of these activities.</p>
+            
+			
+			<div class="pageNavi">
+
+    <!-- Clickable "Top Up" button -->
+    <a href="#" class="top-up-button"> ↑ Page Top</a>
+</div> 
+</div>      
+</div>
+
+
+
+<br>
+
+
+
+    <div class="w3-third w3-margin-bottom" id="LEARN">
+      <div class="w3-card-4">
+      <div class="image-zoom">
+        <img src="https://65.media.tumblr.com/8c81e80f7abc90f59a61913284dda0a8/tumblr_inline_o7ckapQes21tqv1ik_500.gif" alt="N3" style="width:100%" class="responsive-image-2">
+        <div class="w3-container">
+          <h3>JLPT - N3</h3>
+          <p class="w3-opacity">The Bridge</p>
+          <p>N3 is the intermediate level of the Japanese Language Proficiency Test and is described as the ability to understand Japanese used in everyday situations to a certain degree.</p>
+          <a href="https://drive.google.com/file/d/1ZpJrnG593XgiUcqtu7VMwWgZAtybzlOQ/view?usp=sharing"  href="#Learn"  class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank"><b>JLPT-N3 &nbsp; PDF📄</b></a> 
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="image-zoom">
+        <img src="https://cotoacademy.com/app/uploads/2020/04/JLPT-N4-ta-bakari.png" alt="N4" style="width:100%" class="responsive-image-2">
+        <div class="w3-container">
+          <h3>JLPT - N4</h3>
+          <p class="w3-opacity">The Basics</p>
+          <p>N4 is the second level of the Japanese Language Proficiency Test (JLPT). To pass the JLPT N4, you need to be able to read 300 kanji and know about 1,500 vocabulary words.</p>
+        <a href="https://drive.google.com/file/d/1UJYOGGcGOTv8_N7Slk0D8EEfW94Vf5dw/view?usp=drivesdk"  href="#Learn"  class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank"><b>JLPT-N4 &nbsp; PDF📄</b></a> 
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="image-zoom">
+        <img src="https://www.attainj.co.jp/attain-online-japanese/material/images/jlpt-N5-en-1.jpg"  alt="N5" style="width:100%"  class="responsive-image-2" >
+        <div class="w3-container">
+          <h3>JLPT - N5</h3>
+          <p class="w3-opacity">The Basics</p>
+          <p>N5 is the most basic level of the JLPT and just requires you to understand some basic Japanese like hiragana, katakana, and basic kanji as well as from spoken conversations.</p>
+        <a href="https://drive.google.com/file/d/1V5VB6F2aSNmrpXw2_9P-9xnoFyLswH-e/view?usp=drivesdk"  href="#Learn"  class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank"><b>JLPT-N5 &nbsp; PDF📄</b></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--Areas-->
+<div class="w3-row-padding"  href="#Areas">
+        <div class="w3-container">
+        <div class="w3-center w3-padding-32">
+            <h2 class="w3-wide"><b><u>AREAS</u></b></h2>
+            <p class="w2-opacity w2-center"><i>Japan is officially divided into the following eight regions:</i></p>
+            <p> <a href="#Areas"> </a> </p> 
+              <a class="w3-button w3-round-xlarge w3-small w3-margin-bottom w3-gradient-skyblue" class="responsive-icons"  href="https://www.japan-guide.com/e/e623a.html" target="_blank">
+    <b>Regions of Japan</b>
+</a>
+
+            
+            
+            
+            <!-- Use an unordered list for the regions with the custom "region-list" class -->
+            <ul class="region-list" class="text-center">
+                <li> Hokkaido</li>
+                <li>Tohoku</li>
+                <li>Kanto</li>
+                <li>Chubu</li>
+                <li>Kinki/Kansai</li>
+                <li>Chugoku</li>
+                <li>Shikoku</li>
+                <li>Kyushu (incl. Okinawa)</li>
+            </ul>
+            
+            <p class="w3-white w3-text-black w3-left-align">
+                <div id="alpha">
+                    <!-- Use a div for the responsive image -->
+                    <div id="alpha-inner" class="clearfix">
+                        <div id="caption">
+                            <!-- Replace the image URL with the actual image URL -->
+                            <img src="https://s3-ap-northeast-1.amazonaws.com/bhive-jp/media/yabai/article/2098/2098_1_map_prefectures.jpg" width="690" height="710" alt="Japan Map" class="responsive-image-7" />
+                        
+                        <p id="lead" class="p-b20">
+                        </p>
+                    </div>
+                </div>
+            </p>
+        </div>
+    </div>
+  
+
+
+<!--Explore Animation-->
+<h6 class="ml5">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters letters-left">Explore</span>
+    <span class="line line2"></span>
+  </span>
+</h6>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+
+
+
+<!--Places-->
+      <div class="w3-white" id="Places">
+			<div class="w3-container">
+      <div class="w3-center w3-padding-32">
+            <h2 class="w3-wide" align="center"><b><u>PLACES</u></b></h2>
+
+            <br>
+
+  <div class="w3-third w3-margin-bottom">
+  <div class="w3-card-4">
+    <div class="image-zoom">
+      <img src="https://ohh.okinawa/wpdir/wp-content/uploads/2019/07/2c3f1dcc6ff94338cc8d4cb470b96d97.gif" alt="Okinawa Beach" style="width:100%">
+    <div class="w3-container">
+      <h3>OKINAWA</h3>
+      <h3><p class="w3-opacity">沖縄</p></h3>
+      <p>Okinawa's climate is subtropical, with temperatures barely falling below 15 degrees in winter. The seas surrounding Okinawa's islands offer beautiful coral reefs and abundant marine wildlife.</p>
+      <a href="https://www.japan-guide.com/e/e2156.html"  href="#Places"class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">Read More</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="image-zoom">
+        <img src="https://66.media.tumblr.com/4f7be749b7cd3ca69becbecb39a5124b/tumblr_py403w6jU71tjxoi0o2_500.gifv" alt="Kyoto" style="width:100%">
+        <div class="w3-container">
+          <h3>KYOTO</h3>
+        <h3> <p class="w3-opacity">京都</p> </h3>
+          <p>Kyoto (京都) served as Japan's capital and the emperor's residence from 794 until 1868. It is one of the country's ten largest cities with a population of 1.5 million people and a modern face.</p>
+          <a href="https://www.japan-guide.com/e/e2156.html"  href="#Places"class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <div class="image-zoom">
+        <img src="https://www.michaelhaessig.com/assets/japan/kyoto-1/shinkansen.gif" alt="bullet-train" style="width:100%">
+        <div class="w3-container">
+          <h3>BULLET &nbsp; TRAIN</h3>
+        <h3> <p class="w3-opacity">新幹線</p> </h3>
+          <p>Shinkansen (新幹線) in Japanese means 'new trunk line' or 'new main line', but this word is used to describe both the railway lines the trains run on. In English, the trains are also known as the bullet train.</p>
+          <a href="https://www.japan-guide.com/e/e2156.html"  href="#Places"class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">Read More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+    
+
+<br>
+
+
+
+
+<!-- Travel section -->
+  <div class="w3-white" id="Travel">
+    <div class="w3-container">
+      <div class="w3-center w3-padding-32">
+      <h2 class="w3-wide"><b><u>TRAVEL</u></b></h2>
+      <p class="w3-opacity"><i> 🇯🇵 Japan is calling you...</i></p>
+      <p class="w3-left-align w3-white w3-text-black">
+    Spread across 7000 islands and dotted with megacities, mountain ranges, and mighty national parks, Japan can appear a little intimidating to explore at first glance.
+
+But look a little closer, and you’ll find this Asian powerhouse is a delight to travel around, whether by train, ferry or using a hired set of wheels, The ten biggest cities in Japan are Tokyo, Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kawasaki, Kobe, Kyoto and Saitama. Here we profile each of them.
+      </p>
+      </div>
+
+      
+
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <!-- First Column -->
+        <div class="w3-third">
+          <div class="image-zoom">
+            <img src="https://images3.alphacoders.com/130/1305208.jpg" alt="Tokyo" style="width:100%  height:auto; max-height:230px;"  class= "responsive-image-3">
+            <div class="w3-container w3-white">
+                <p><b>TOKYO</b></p>
+                <p> Tokyo (東京) is Japan's capital and the world's most populous metropolis. It is also one of Japan's 47 prefectures, consisting of 23 central city wards, multiple cities.</p>
+                <!-- Link to "Learn More" -->
+                <a href="https://www.japan-guide.com/e/e2164.html"  href="#Learn More" class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <!-- Second Column -->
+        <div class="w3-third">
+          <div class="image-zoom">
+            <img src="https://e0.pxfuel.com/wallpapers/842/840/desktop-wallpaper-osaka-dotonbori-japan-nightlife.jpg" alt="Osaka" style="width:100%  height:auto; max-height:230px;"  class="responsive-image-3">
+            <div class="w3-container w3-white">
+                <p><b>OSAKA</b></p>
+                <p> Osaka (大阪) is Japan's second largest metropolitan area after Tokyo. It has been the economic powerhouse of the Kansai Region for many centuries. </p>
+                <!-- Link to "Learn More" -->
+                <a href="https://www.japan-guide.com/e/e2157.html"  href="#Learn More"class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">LEARN MORE</a>
+            </div>
+         </div>
+       </div>
+    
+
+
+        <div class="w3-third">
+          <div class="image-zoom">
+          <img src="https://e0.pxfuel.com/wallpapers/438/767/desktop-wallpaper-yokohama-1-1920-x-1080.jpg" alt="Yokohama" style="width:100%  height:auto; max-height:230px;"  class="responsive-image-3">
+          <div class="w3-container w3-white">
+            <p><b>YOKOHAMA</b></p>
+            <p> Yokohama (横浜市) is the capital of Kanagawa Prefecture, Japan's largest city after Tokyo, located in the Kantō region of the main island of Honshū.</p>
+            <a href="https://www.japan-guide.com/e/e2156.html"  href="#Learn More"class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">LEARN MORE</a>
+          </div>
+        </div>
+        </div>
+    
+  
+<br>
+
+
+<!--Second Section of Travel-->
+<div class="w3-row-padding" style="margin:0 -16px">
+        <!-- First Column -->
+        <div class="w3-third">
+          <div class="image-zoom">
+            <img src="https://wallpaperaccess.com/full/1611493.jpg" alt="Nagoya" style="width:100%  height:auto; max-height:230px;"  class= "responsive-image-3">
+            <div class="w3-container w3-white">
+                <p><b>NAGOYA</b></p>
+                <p> Nagoya (名古屋) is Japan's fourth most populated city after Tokyo, Yokohama and Osaka. It is the capital of Aichi Prefecture and the principal city of the Nobi plain, one of Honshu's three large plains and metropolitan and centers.</p>
+                <!-- Link to "Learn More" -->
+                <a href="https://www.japan-guide.com/e/e2155.html"  href="#Travel" class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">LEARN MORE</a>
+            </div>
+        </div>
+        </div> 
+
+
+        <!-- Second Column -->
+        <div class="w3-third">
+          <div class="image-zoom">
+            <img src="https://wallpaperaccess.com/full/1946131.jpg" alt="Sapporo" style="width:100%  height:auto; max-height:230px;" class="responsive-image-3">
+            <div class="w3-container w3-white">
+                <p><b>SAPPORO</b></p>
+                <p> Sapporo (札幌) is the capital of Hokkaido and Japan's fifth largest city. Sapporo is also one of the nation's youngest major cities. Sapporo became world famous in 1972 when the Olympic Winter Games were held there.</p>
+                <!-- Link to "Learn More" -->
+                <a href="https://www.japan-guide.com/e/e2163.html"  href="#Travel" class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">LEARN MORE</a>
+            </div>
+        </div>
+        </div>
+
+
+
+
+  <!-- Third Column -->
+        <div class="w3-third">
+  <div class="image-zoom">
+    <img src="https://wallpaperaccess.com/full/1634914.jpg" alt="Fukuoka" style="width:100%  height:auto; max-height:230px;" class="responsive-image-3">
+    <div class="w3-container w3-white">
+      <p><b>FUKUOKA</b></p>
+      <p> Fukuoka (福岡) is Kyushu's largest and one of Japan's ten most populated cities. Fukuoka has been an important harbor city for centuries and was chosen by the Mongol invasion forces as their landing point in the 13th century.</p>
+      <a href="https://www.japan-guide.com/e/e2161.html" href="#Travel" class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">LEARN MORE</a>
+    </div>
+  </div>
+</div>
+
+
+      
+
+
+
+
+<!-- Contact -->
+<div class="w3-white" id="Contact">
+  <div class="w3-container w3-padding-32">
+    <div class="w3-center w3-padding-32">
+<h2 class="w3-wide"><b><u>CONTACT</u></b></h2>
+ <p class="w3-opacity"> <i> Please feel free to contact us !</i> </p>
+ <p class="w3-opacity"> <i> Request in Japanese or English will be responded quicker.</i> </p> 
+  </div>
+  
+
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Query" required name="Query"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+<button class="start-button" > <a href="https://wa.me/qr/MSECXIUNBVMMC1"  class="w3-button w3-round w3-pale-red w3-block" target="_blank" type="submit">SEND MESSAGE </a></button>
+</form>
+</div>
+</div>
+
+ <!-- Clickable "Top Up" button -->
+    <a href="#" class="top-up-button"> ↑ Page Top</a>
+
+
+  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+  <footer class="w3-container w3-pale-red w3-center w3-margin-top">
+    <p> Find us on social media.</p>
+    <a href="https://m.facebook.com/profile.php/?id=100041870123408&name=xhp_nt__fb__action__open_user" target="_blank"  class="fab fa-facebook bigger-icon"  class="responsive-icons"   class="fab fa-facebook spaced-icon"  class="no-underline"  class="icon"  class="facebook-icon">  </a>
+    <a href="https://www.instagram.com/lucky_sonicosmos/" target="_blank"  class="fab fa-instagram bigger-icon"  class="responsive-icons"   class="fab fa-instagram spaced-icon"   class="no-underline" class="icon" > </a>
+    <a href="https://www.snapchat.com/add/luckysoni_cos?share_id=YX0VkbrMEII&locale=en-US" target="_blank" class="fab fa-snapchat bigger-icon"   class="responsive-icons"   class="fab fa-snapchat spaced-icon"  class="no-underline"  class="icon" >  </a>
+    <a href="https://in.pinterest.com/it20097/" target="_blank" class="fab fa-pinterest bigger-icon"  class="responsive-icons"    class="fab fa-pinterest spaced-icon" class="no-underline"  class="icon" >  </a>
+    <a href="https://twitter.com/LuckySonicosmos?t=DRkKGcpRjZUthL6_DDbdIQ&s=09"  target="_blank" class="fab fa-twitter bigger-icon"   class="responsive-icons"   class="fab fa-twitter spaced-icon" class="no-underline"  class="icon" >  </a>
+    <a href="https://www.linkedin.com/in/raj-anand-soni-037541212" target="_blank"  class="fab fa-linkedin bigger-icon"  class="responsive-icons"   class="fab fa-linkedin spaced-icon" class="no-underline"  class="icon" >  </a> <br>
+    <p> You can also check 'Embassy of India in Japan' Offical Twitter Page 🇮🇳 🇯🇵 </p>
+<br>
+    <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom" class="responsive-icons"  href="https://twitter.com/IndianEmbTokyo?t=9TKl9283oRPpKy49YyzkjQ&s=09" target="_blank">
+  <b> CLICK HERE </b></a>
+  <br>
+    <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom"  class="responsive-icons" href="https://raj-anand-soni.w3spaces.com/#" target="_blank"><b> Connect with us</b></a> 
+  <br>
+    <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom" class="responsive-icons"  href="https://chat.whatsapp.com/JZu3yXhmwqMCoFxc9XZvKM" target="_blank">
+  <b> Join India-Japan WhatsApp Group </b></a>
+<!-- End footer -->
+
+
+
+  <p> ©2023  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  All Rights Reserved. <p> 
+ <p> Made with ❤️ in India by Raj Soni </p>
+  </footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+<script>
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml14 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml14 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeInOutExpo",
+    duration: 900
+  }).add({
+    targets: '.ml14 .letter',
+    opacity: [0,1],
+    translateX: [40,0],
+    translateZ: 0,
+    scaleX: [0.3, 1],
+    easing: "easeOutExpo",
+    duration: 800,
+    offset: '-=600',
+    delay: (el, i) => 150 + 25 * i
+  }).add({
+    targets: '.ml14',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml5 .line',
+    opacity: [0.5,1],
+    scaleX: [0, 1],
+    easing: "easeInOutExpo",
+    duration: 700
+  }).add({
+    targets: '.ml5 .line',
+    duration: 600,
+    easing: "easeOutExpo",
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+  }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=300'
+  }).add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+
+
+<!--Navigation Bar Toggle-->
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+
+
+
+
+<script>
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml11 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml11 .line',
+    scaleY: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700
+  })
+  .add({
+    targets: '.ml11 .line',
+    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+    easing: "easeOutExpo",
+    duration: 700,
+    delay: 100
+  }).add({
+    targets: '.ml11 .letter',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=775',
+    delay: (el, i) => 34 * (i+1)
+  }).add({
+    targets: '.ml11',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="app.js"></script>
+
+
+<script>
+let slider = document.querySelector('.slider .list');
+let items = document.querySelectorAll('.slider .list .item');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let dots = document.querySelectorAll('.slider .dots li');
+
+let lengthItems = items.length - 1;
+let active = 0;
+next.onclick = function(){
+    active = active + 1 <= lengthItems ? active + 1 : 0;
+    reloadSlider();
+}
+prev.onclick = function(){
+    active = active - 1 >= 0 ? active - 1 : lengthItems;
+    reloadSlider();
+}
+let refreshInterval = setInterval(()=> {next.click()}, 3000);
+function reloadSlider(){
+    slider.style.left = -items[active].offsetLeft + 'px';
+    // 
+    let last_active_dot = document.querySelector('.slider .dots li.active');
+    last_active_dot.classList.remove('active');
+    dots[active].classList.add('active');
+
+    clearInterval(refreshInterval);
+    refreshInterval = setInterval(()=> {next.click()}, 3000);
+
+    
+}
+
+dots.forEach((li, key) => {
+    li.addEventListener('click', ()=>{
+         active = key;
+         reloadSlider();
+    })
+})
+window.onresize = function(event) {
+    reloadSlider();
+};
+</script>
+
+
+
+
+
+<script>
+  // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml3');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
