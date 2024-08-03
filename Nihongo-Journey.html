@@ -1151,22 +1151,18 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 
 <!--Areas-->
-<div class="w3-row-padding"  href="#Areas">
-        <div class="w3-container">
+<div class="w3-row-padding" id="Areas">
+    <div class="w3-container">
         <div class="w3-center w3-padding-32">
             <h2 class="w3-wide"><b><u>AREAS</u></b></h2>
             <p class="w2-opacity w2-center"><i>Japan is officially divided into the following eight regions:</i></p>
-            <p> <a href="#Areas"> </a> </p> 
-              <a class="w3-button w3-round-xlarge w3-small w3-margin-bottom w3-gradient-skyblue" class="responsive-icons"  href="https://www.japan-guide.com/e/e623a.html" target="_blank">
-    <b>Regions of Japan</b>
-</a>
-
-            
-            
+            <a class="w3-button w3-round-xlarge w3-small w3-margin-bottom w3-gradient-skyblue" href="https://www.japan-guide.com/e/e623a.html" target="_blank">
+                <b>Regions of Japan</b>
+            </a>
             
             <!-- Use an unordered list for the regions with the custom "region-list" class -->
-            <ul class="region-list" class="text-center">
-                <li> Hokkaido</li>
+            <ul class="region-list text-center">
+                <li>Hokkaido</li>
                 <li>Tohoku</li>
                 <li>Kanto</li>
                 <li>Chubu</li>
@@ -1176,22 +1172,44 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <li>Kyushu (incl. Okinawa)</li>
             </ul>
             
-            <p class="w3-white w3-text-black w3-left-align">
-                <div id="alpha">
-                    <!-- Use a div for the responsive image -->
-                    <div id="alpha-inner" class="clearfix">
-                        <div id="caption">
-                            <!-- Replace the image URL with the actual image URL -->
-                            <img src="https://s3-ap-northeast-1.amazonaws.com/bhive-jp/media/yabai/article/2098/2098_1_map_prefectures.jpg" width="690" height="710" alt="Japan Map" class="responsive-image-7" />
-                        
-                        <p id="lead" class="p-b20">
-                        </p>
+            <div id="alpha">
+                <!-- Use a div for the responsive image -->
+                <div id="alpha-inner" class="clearfix">
+                    <div id="caption">
+                        <img src="https://s3-ap-northeast-1.amazonaws.com/bhive-jp/media/yabai/article/2098/2098_1_map_prefectures.jpg" width="690" height="710" alt="Japan Map" class="responsive-image-7" />
+                        <p id="lead" class="p-b20"></p>
                     </div>
                 </div>
-            </p>
+            </div>
         </div>
     </div>
-  
+</div>
+
+<style>
+.region-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.region-list li {
+    position: relative;
+    padding-left: 15px; /* Adjusted padding to be closer to the text */
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.region-list li::before {
+    content: "➤"; /* Unicode arrow symbol */
+    position: absolute;
+    left: 80px; /* Adjusted to ensure the arrow is close to the text */
+    color: #1e90ff; /* Color of the arrow */
+    font-size: 1.2em;
+}
+</style>
+
+
 
 
 <!--Explore Animation-->
@@ -1220,7 +1238,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <div class="image-zoom">
                             <img src="https://ohh.okinawa/wpdir/wp-content/uploads/2019/07/2c3f1dcc6ff94338cc8d4cb470b96d97.gif"
                                 alt="Okinawa Beach" style="width:100%; height: 250px; object-fit: cover;">
-                            <div class="w3-container" style="height: 250px;">
+                            <div class="w3-container" style="height: 320px;">
                                 <h3>OKINAWA</h3>
                                 <h3><p class="w3-opacity">沖縄</p></h3>
                                 <p>Okinawa's climate is subtropical, with temperatures barely falling below 15 degrees in winter. The seas surrounding Okinawa's islands offer beautiful coral reefs and abundant marine wildlife.</p>
@@ -1235,7 +1253,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <div class="image-zoom">
                             <img src="https://66.media.tumblr.com/4f7be749b7cd3ca69becbecb39a5124b/tumblr_py403w6jU71tjxoi0o2_500.gifv"
                                 alt="Kyoto" style="width:100%; height: 250px; object-fit: cover;">
-                            <div class="w3-container" style="height: 250px;">
+                            <div class="w3-container" style="height: 320px;">
                                 <h3>KYOTO</h3>
                                 <h3><p class="w3-opacity">京都</p></h3>
                                 <p>Kyoto (京都) served as Japan's capital and the emperor's residence from 794 until 1868. It is one of the country's ten largest cities with a population of 1.5 million people and a modern face.</p>
@@ -1250,10 +1268,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <div class="image-zoom">
                             <img src="https://www.michaelhaessig.com/assets/japan/kyoto-1/shinkansen.gif"
                                 alt="bullet-train" style="width:100%; height: 250px; object-fit: cover;">
-                            <div class="w3-container" style="height: 250px;">
+                            <div class="w3-container" style="height: 320px;">
                                 <h3>BULLET TRAIN</h3>
                                 <h3><p class="w3-opacity">新幹線</p></h3>
-                                <p>Shinkansen (新幹線) in Japanese means 'new trunk line' or 'new main line', but this word is used to describe both the railway lines the trains run on. In English, the trains are also known as the bullet train.</p>
+                                <p>Shinkansen (新幹線) in Japanese means 'new trunk line' or 'new main line', but this word is used to describe both the railway lines the trains run on. The trains are also known as the bullet train.</p>
                                 <a href="https://www.japan-guide.com/e/e2018.html" class="w3-button w3-round w3-pale-red w3-margin-bottom" target="_blank">Read More</a>
                             </div>
                         </div>
@@ -1263,6 +1281,8 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
     </div>
 </div>
+
+
 
 
 <br>
@@ -1423,7 +1443,7 @@ But look a little closer, and you’ll find this Asian powerhouse is a delight t
 
 
 
-  <p> ©2023  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  All Rights Reserved. <p> 
+  <p> ©2024  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  All Rights Reserved. <p> 
  <p> Made with ❤️ in India by Raj Soni </p>
   </footer>
 
